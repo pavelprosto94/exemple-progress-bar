@@ -1,0 +1,15 @@
+{
+    "name": "exemple-progress-bar.yourname",
+    "description": "A short description of your app",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Progress Bar",
+    "hooks": {
+        "exemple-progress-bar": {
+            "apparmor": "exemple-progress-bar.apparmor",
+            "desktop":  "exemple-progress-bar.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Your FullName <email@domain.org>",
+    "framework" : "ubuntu-sdk-16.04"
+}
